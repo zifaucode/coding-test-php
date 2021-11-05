@@ -58,3 +58,10 @@ for($i=1;$i<100;$i++){
 }
 ?> 
 
+
+
+//MEMBALIK HURUF
+<?php
+echo strrev("NAITSUGA IZUAF"); // Outputnya adalah = FAUZI AGUSTIAN
+?> 
+
