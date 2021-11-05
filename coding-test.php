@@ -65,3 +65,19 @@ for($i=1;$i<100;$i++){
 echo strrev("NAITSUGA IZUAF"); // Outputnya adalah = FAUZI AGUSTIAN
 ?> 
 
+
+//MENGHITUNG SELISIH HARI
+<?php 
+$tgl1 = strtotime("2020-01-01"); 
+$tgl2 = strtotime("2020-01-20"); 
+
+$jarak = $tgl2 - $tgl1;
+
+$hari = $jarak / 60 / 60 / 24;
+echo "Selisih waktu= $hari Hari";
+?>
+
+
+
+
+
